@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <title>{% block title %}Home{% endblock %}</title>
+</head>
+    <body>
+        {% block body %}
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+        <script defer src="../static/index.js"></script>
+
+            <section class="hidden">
+                <h1 class="text">Rehaan and Daniel Drone Portfolio</h1>
+            </section>
+
+            <!-- <section class="videolist hidden">
+                <div class="video hidden">
+                    <video loop autoplay muted id="stockvideo1" src="../static/videos/stockvideo1.mp4"></video>
+                </div>
+                <div class="video hidden">
+                    <video loop autoplay muted id="stockvideo1" src="../static/videos/stockvideo2.mp4"></video>
+                </div>
+                <div class="video hidden">
+                    <video loop autoplay muted id="stockvideo1" src="../static/videos/stockvideo3.mp4"></video>
+                </div>
+                <div class="video hidden">
+                    <video loop autoplay muted id="stockvideo1" src="../static/videos/stockvideo4.mp4"></video>
+                </div>
+                <div class="video hidden">
+                    <video loop autoplay muted id="stockvideo1" src="../static/videos/stockvideo5.mp4"></video>
+                </div>
+            </section> -->
+
+            <section class="imgs">
+                <img id="dronepic" class="dronepic" src="../static/images/drone_pic2.jpeg" alt="dronepic">
+                <div class="dronepictrigger"></div>
+            </section>
+
+            <section class="hidden">
+                <h3 class="text">To view more, or to schedule a shoot, please contact us at rehaan1099@gmail.com</h3>
+            </section>
+            
+        {% endblock %}  
+         
+    </body>
+</html>
